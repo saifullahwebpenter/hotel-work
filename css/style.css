@@ -333,6 +333,9 @@
     .signup-container {
         width: 90%;
     }
+    .login-container,.signup-container{
+        padding: 20px;
+    }
 }
 
 
