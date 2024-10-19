@@ -34,15 +34,17 @@
             <h2 class="text-xl font-semibold text-foreground">Withdrawal of money</h2>
             <a href=""><i class="fa-regular fa-clipboard"></i></a>
            </div>
-        <label class="block mb-2 text-muted-foreground" for="withdrawal-amount">Withdrawl amount</label>
+        <label class="block mb-2 text-blue-700" for="withdrawal-amount">Withdrawl amount</label>
         <input type="text" id="withdrawal-amount" class="w-full p-2 border border-border rounded-lg bg-input" placeholder="Enter amount" />
-        <p class="text-muted-foreground mt-2">Account balance: <span class="font-semibold">0.00</span></p>
-        <label class="block mt-4 mb-2 text-muted-foreground" for="withdrawal-method">Withdrawal method</label>
+        <p class="text-gray-800 text-xs mt-2">Account balance: <span class="font-semibold">0.00</span></p>
+        <label class="block mt-4 mb-2 text-blue-700" for="withdrawal-method">Withdrawal method</label>
         <select id="withdrawal-method" class="w-full p-2 border border-border rounded-lg bg-input">
           <option>Bank card</option>
+          <option>Debit card</option>
+          <option>Jazz Cash</option>
         </select>
-        <a href="#" class="text-accent hover:underline mt-1 block">Add a bank card</a>
-        <label class="block mt-4 mb-2 text-muted-foreground" for="payment-password">Payment password</label>
+        <a href="#" class="text-gray-800 text-xs mt-1 block">Add a bank card</a>
+        <label class="block mt-4 mb-2 text-blue-700" for="payment-password">Confirm password</label>
         <div class="relative">
           <input type="password" id="payment-password" class="w-full p-2 border border-border rounded-lg bg-input" placeholder="Enter password" />
           <button id="show-password" class="absolute inset-y-0 right-0 px-3 flex items-center bg-transparent text-muted-foreground">
