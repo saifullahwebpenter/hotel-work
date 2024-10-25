@@ -47,7 +47,32 @@
         </div>
         <button class="mt-4 w-full bg-primary text-white p-2 rounded-lg" style="background: blue;">Reloading</button>
       </div>
-      
+      <div class="p-4">
+        <h3 class="my-2">Confirm transaction</h3>
+        <form action="">
+          <div class="p-2 mb-1">
+            <label for="" class="text-sm">Transaction-id</label>
+            <input type="text" class="border rounded" style="width: -webkit-fill-available;">
+          </div>
+          <div class="p-2 mb-1">
+            <label for="" class="text-sm">Receiver Name</label>
+            <input type="text" class="border rounded" style="width: -webkit-fill-available;">
+          </div>
+          <div class="p-2 mb-1">
+            <label for="" class="text-sm">Sender Name</label>
+            <input type="text" class="border rounded" style="width: -webkit-fill-available;">
+          </div>
+          <div class="p-2 mb-1">
+            <label for="" class="text-sm">Deposit</label>
+            <input type="number" class="border rounded" style="width: -webkit-fill-available;">
+          </div>
+          <div class="p-2 mb-1">
+            <label for="" class="text-sm">Attach Screenshot</label>
+            <input type="file" class="border rounded text-xs" style="width: -webkit-fill-available;">
+          </div>
+          <input type="submit" class="py-1 bg-blue-500 text-white rounded-lg text-sm w-full">
+        </form>
+      </div>
       <script>
         function selectAmount(amount) {
             document.getElementById('amount').value = amount;
